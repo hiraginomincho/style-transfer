@@ -204,7 +204,7 @@ function runInference(image) {
     const inferenceResult = transformNet.predict(preprocessed);
     setCanvasShape(inferenceResult.shape);
     renderToCanvas(inferenceResult, canvas);
-  })
+  });
 }
 
 function setCanvasShape(shape) {
