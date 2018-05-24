@@ -242,7 +242,7 @@ var canvas = document.getElementById("canvas");
 canvas.style.display = "none";
 
 var img = new Image();
-img.width = 600;
+img.width = 500;
 img.src = "stata.jpg";
 img.style.display = "inline-block";
 document.body.insertBefore(img, canvas);
